@@ -18,22 +18,34 @@ app.listen(PORT, function() {
 // ==================================================================
 let reservations = [
     {
-        name: "name",
+        name: "Bill Nye",
         number: 123456789,
-        email: "email@email.com",
+        email: "bill@nye.com",
         id: 1234
     },
     {
         name: "Jimmy John",
         number: 5551112222,
         email: "jimmy@john.com",
-        id: 4356
+        id: 4567
     },
     {
         name: "Steve Buschemi",
         number: 3334445555,
         email: "steve@buschemi.com",
-        id: 5555
+        id: 9876
+    },
+    {
+        name: "William Gates",
+        number: 4448882222,
+        email: "god@windows.com",
+        id: 4321
+    },
+    {
+        name: "Jeff Bezos",
+        number: 6669991111,
+        email: "lord@amazon.com",
+        id: 2468
     }
 ];
 
